@@ -1,0 +1,56 @@
+.tieude {
+    color: rgb(44, 173, 173);
+    text-align: center;
+    text-shadow: 3px 2px 2px;
+    font-size: 200%;
+}
+/* styles.css */
+.avt{
+    width: 200px;            /* Chiều rộng của khung */
+    height: 200px;           /* Chiều cao của khung */
+    box-shadow: 4px 4px 8px rgb(44, 173, 173);
+    border-radius: 50%;      /* Làm tròn khung thành hình tròn */
+    overflow: hidden;        /* Ẩn phần ảnh vượt ra ngoài khung */
+    border: 4px solid #333;  /* (Tùy chọn) Thêm viền cho khung */
+    display: flex;
+    justify-content: center; /* Căn chỉnh ảnh nằm giữa khung */
+    align-items: center;
+}
+.ero{
+  width: 100%px;            /* Chiều rộng của khung */
+  height: 200px;           /* Chiều cao của khung */      /* Ẩn phần ảnh vượt ra ngoài khung */
+  position: absolute;
+  justify-content: center; /* Căn chỉnh ảnh nằm giữa khung */
+  align-items: center;
+  top: 260%;
+  left: 30%;
+}
+h2{
+  position: absolute;  /* Đặt chữ vào vị trí tuyệt đối */
+  top: 150px;           /* Cách cạnh trên 50px */
+  left: 250px;         /* Cách cạnh trái 100px */
+  font-size: 27px;  
+}
+.fb{
+  width: 300px;            /* Chiều rộng của khung */
+  height: 200px;           /* Chiều cao của khung */
+  box-shadow: 4px 4px 8px rgb(44, 173, 173);
+  border-radius: 0%;      /* Làm tròn khung thành hình tròn */
+  overflow: hidden;        /* Ẩn phần ảnh vượt ra ngoài khung */
+  border: 4px solid #333;  /* (Tùy chọn) Thêm viền cho khung */
+  display: flex;
+  justify-content: center; /* Căn chỉnh ảnh nằm giữa khung */
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 76%;
+}
+  /*hehehhe*/
+body {
+    height: 2000px; /* Kéo dài trang tới 2000px */
+    background: linear-gradient(to bottom, #f0f8ff, #2dced3);
+  }
+.end {
+    position: relative; bottom: 0;  width: 100%; text-align: center;
+    top: 1650px;
+}
